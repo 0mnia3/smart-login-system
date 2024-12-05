@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+
+}
+body{
+    background-color: #24353F;
+}
+nav{
+    width: 100%;
+    background-color: #24353F;
+    box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.container{
+    margin-top: 12%;
+}
+.username{
+    color: #17A2B8 !important;
+}
+@media (max-width:991px){
+    .nav-item{
+margin: auto;
+    }
+    .container{
+        position: relative;
+        top:150px;
+
+    }
+    .group{
+        box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+        color: aqua;
+    }
+}

@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+
+}
+body{
+  background-color: #24353F;
+
+}
+.container{
+  width: 55%;
+  background-color: #24353F;
+  box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.contac{
+  padding:50px;
+}
+h1{
+  margin: 0 0 8px;
+  color:  #17A2B8;
+  font-size: 40px;
+  font-weight: 500;   
+}
+.username ,.username:focus{
+  background-color: transparent;
+  color: white !important;
+}
+
+.username:focus{
+  box-shadow: none !important;
+}
+
+::placeholder{
+  color: #ffffffbd !important;
+}
+.submit{
+  border: 2px solid #17A2B8;
+  transition:backgroun 0.5s;
+  color: #17A2B8 !important;
+}
+
+
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+
